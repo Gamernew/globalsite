@@ -41,7 +41,7 @@ body {
   border: 5px solid #77b755;
 }
 nav {
-  z-index: 2;
+  z-index: 6;
   position: fixed;
   top: 0px;
   font-family: helvetica;
