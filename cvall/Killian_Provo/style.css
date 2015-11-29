@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background-image: url("Images-page/Background.jpg");
+  background-repeat: no-repeat;
+  font-family: Helvetica;
+}
+h1 {
+  text-align: center;
+  margin-left: 200px;
+  color: white;
+}
+h2 {
+  text-align: center;
+  margin-left: -50px;
+  color: #009C60;
+  font-size: 30px;
+}
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+hr {
+  width: 200px;
+}
+progress::-moz-progress-bar {
+  background: #009C60;
+}
+progress {
+  width: 1000px;
+}
+.LeftMenu {
+  background-color: #06262C;
+  width: 15%;
+  float: left;
+  height: 605px;
+  margin-top: -25px;
+  font-family: cursive, Helvetica;
+  position: fixed;
+}
+.LeftMenu img {
+  width: 70%;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.LeftMenu li {
+  margin-top: 70px;
+  list-style: none;
+}
+.LeftMenu a {
+  text-decoration: none;
+  color: white;
+}
+.Button img {
+  border-radius: 50%;
+  height: 75px;
+  vertical-align: middle;
+  width: 75px;
+  float: left;
+  margin-left: 100px;
+  opacity: 1;
+}
+#Corps {
+  text-align: center;
+  float: right;
+  margin-top: 50px;
+  padding: 5px;
+}
+#Corps p {
+  color: white;
+  font-size: 20px;
+}
+#Etudes {
+  background-color: #009C60;
+  float: right;
+  width: 85%;
+  height: 650px;
+  margin-top: 350px;
+}
+#Etudes li {
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+  list-style: none;
+  margin-top: 20px;
+}
+#Etudes p {
+  color: white;
+  font-size: 20px;
+}
+#Skills {
+  background-color: white;
+  height: 850px;
+  padding-left: 50px;
+}
+#Skills p {
+  color: #009C60;
+}
+#Contact {
+  background-color: #06262C;
+  height: 350px;
+  margin-top: 0;
+  float: left;
+  width: 100%;
+  margin-bottom: 0px;
+  opacity: 0.9;
+}
+#Contact p {
+  margin-left: 50px;
+}
+#Contact a {
+  text-decoration: none;
+  color: white;
+}

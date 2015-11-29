@@ -1,0 +1,450 @@
+body {
+    margin: 0px;
+}
+
+html {
+  height: 0px;
+}
+/*bloc de fond accueil*/
+.accueil {
+    width: 100%;
+    height: 650px;
+    background-color: none;
+    padding-top: 20px;
+}
+
+/*bloc de fond image cercle*/
+.bloc-img {
+  width: 35%;
+  height: 600px;
+  /*background-color: pink;*/
+  float: left;
+  margin-left: 20px;
+  transition: :2s ease-in-out;
+}
+
+
+.cercle{
+  border-radius:50%;
+  width:340px;
+  height:340px;
+  border:1px solid #723E64;
+  box-shadow: 5px 5px 10px black;
+  margin-left: 90px;
+  margin-top: 90px;
+}
+
+/*ABOUT TOP*/
+.about-top {
+  width: 100%;
+  height: 50px;
+  /*background-color: blue;*/
+  margin-top: 50px;
+}
+.about-top li {
+  font-family: "AvenirNextLTPro-MediumCn.otf";
+  font-size: 25px;
+  margin-left: 50%;
+  text-align: center;
+  display: inline;
+  color : black;
+  text-decoration: none;
+}
+
+.about-top a {
+  text-decoration: none;
+  color: black;
+}
+
+/*skills top*/
+.skills-top {
+  width: 100%;
+  height: 50px;
+  /*background-color: blue;*/
+  margin-top: 5px;
+}
+
+.skills-top li {
+  font-family: "AvenirNextLTPro-MediumCn.otf";
+  font-size: 25px;
+  margin-left: 40%;
+  text-align: center;
+  display: inline;
+  text-decoration: none;
+  color : black;
+}
+
+.skills-top a {
+  text-decoration: none;
+  color: black;
+}
+
+/*bloc de fond info*/
+.bloc-info {
+  width: 50%;
+  height: 500px;
+  background-color: none;
+  float: right;
+  margin-top: 90px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.contenant-infos {
+  padding-left: 60px;
+}
+
+.contenant-infos a {
+  text-decoration: none;
+  color: black;
+  transition: :2s ease-in-out;
+}
+.contenant-infos a:hover, .bloc-img a:hover {
+font-size: 20px;
+color:#723E64;
+}
+
+.bloc-info h1 {
+  font-family: "AvenirNextLTPro-MediumCn.otf";
+  color:black;
+  padding: 30px;
+  font-size: 60px;
+  text-align: center;
+  border: solid 2px black;
+}
+
+.bloc-info li {
+  font-family: "AvenirNextLTPro-MediumCn.otf";
+  font-size: 25px;
+  margin: 5px;
+  text-align: center;
+  display: inline;
+  float: left;
+  color : black;
+}
+
+.Title-color {
+  color:#723E64;
+  font-family: "AvenirNextLTPro-UltLtCn.otf";
+}
+
+.info-contact {
+  margin-top: 30px;
+  color: black;
+  float: left;
+  text-align: center;
+  display: inline;
+  padding-left: 90px;
+}
+
+.info-contact li {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "AvenirNextLTPro-UltLtCn.otf";
+  font-size: 18px;
+}
+
+/*Font/Police*/
+@font-face {
+  font-family: 'AvenirNextLTPro-MediumCn.otf';
+  src: url('fonts/avenir-next/AvenirNextLTPro-MediumCn.otf');
+}
+@font-face {
+  font-family: 'AvenirNextLTPro-UltLtCn.otf';
+  src: url('fonts/avenir-next/AvenirNextLTPro-UltLtCn.otf');
+}
+
+/*PARTIE ABOUT*/
+.about {
+    width: 100%;
+    height: 790px;
+    background-image: url(img/about/fond-about-flou.jpg);
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.slide-about {
+  margin-left: 10%;
+  width: 85%;
+  height: 100px;
+  /*background-color: blue;*/
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+.about h1 {
+ font-family: "AvenirNextLTPro-MediumCn.otf";
+ color:white;
+ padding: 20px;
+ padding-top: 35px;
+ margin-right: 33.33%;
+ margin-left: 33.33%;
+ margin-top: 250px;
+ font-size: 90px;
+ text-align: center;
+ border: solid 2px white;
+}
+
+/*PARTIE ABOUT CONTENANT*/
+.about-content {
+  width: 100%;
+  height: 700px;
+  /*background-color: pink;*/
+}
+
+.line-about-content {
+  background-color: blue;
+  width: 100%;
+}
+
+.line-about-content img {
+  max-width: 100px;
+  float: left;
+  width: auto;
+  height: 50px;
+  margin: 20px;
+}
+
+.slide-about-text {
+  float: left;
+  margin-left: 10%;
+  width: 30%;
+  height: auto;
+  margin-bottom: 5px;
+  /*background-color: yellow;*/
+  font-family: "AvenirNextLTPro-UltLtCn.otf";;
+}
+.slide-about-text2{
+  float: left;
+  margin-left: 10%;
+  width: 30%;
+  height: auto;
+  margin-bottom: 5px;
+  /*background-color: yellow;*/
+  font-family: "AvenirNextLTPro-UltLtCn.otf";;
+}
+
+.slide-about-text2 img {
+  max-width: 70%;
+  margin-left: 150px;
+}
+.slide-about-text h1{
+  font-family: "AvenirNextLTPro-MediumCn.otf";
+  text-transform: uppercase;
+  color:#723E64;
+}
+/*PARTIE TECHNICAL SKILLS*/
+
+/*skills partie haute*/
+
+.skills {
+    width: 100%;
+    height: 790px;
+    background-color: black;
+    background-size: cover;
+    padding-top: 10px;
+}
+.skills h1 {
+ font-family: "AvenirNextLTPro-MediumCn.otf";
+ color:white;
+ padding: 20px;
+ padding-top: 35px;
+ margin-right: 33.33%;
+ margin-left: 33.33%;
+ margin-top: 150px;
+ font-size: 90px;
+ text-align: center;
+ border: solid 2px white;
+}
+
+/*CONTENU SKILLS*/
+.skills-content {
+  width: 100%;
+  height: 700px;
+  margin-top: 90px;
+}
+
+.slide-skills {
+  margin-left: 10%;
+  padding-top: 100px;
+  width: 85%;
+  height: 200px;
+  /*background-color: pink;*/
+}
+
+
+.line-skills-content {
+  /*margin: 5px;*/
+  width: 200px;
+  /*background-color: blue;*/
+  display: inline;
+  text-decoration: none;
+}
+
+.line-skills-content h1{
+  color:black;
+  font-family: "AvenirNextLTPro-MediumCn.otf";
+  text-align: center;
+}
+
+.line-skills-content li {
+  float: left;
+  margin-left: 130px;
+  width: 350px;
+  /*background-color: blue;*/
+  display: inline;
+  text-decoration: none;
+}
+.line-skills-content p {
+   font-family: "AvenirNextLTPro-MediumCn.otf";
+   color: black;
+   font-size: 20px;
+}
+.line-skills-content img {
+max-height: 250px;
+width: 15%;
+height: 15%;
+}
+
+/*PARTIE GRAPHISME*/
+.graphisme {
+    width: 100%;
+    height: 790px;
+    background-image: url(img/graphisme.jpg);
+    background-size: cover;
+    padding-top: 20px;
+}
+.graphisme h1 {
+ font-family: "AvenirNextLTPro-MediumCn.otf";
+ color:white;
+ padding: 20px;
+ padding-top: 35px;
+ margin-right: 33.33%;
+ margin-left: 33.33%;
+ margin-top: 250px;
+ font-size: 90px;
+ text-align: center;
+ border: solid 2px white;
+}
+
+.graphisme-content {
+  width: 100%;
+  height: 700px;
+  margin-top: 90px;
+}
+
+.slide {
+  margin-left: 10%;
+  width: 85%;
+  height: 200px;
+}
+.slide-photo {
+  margin-left: 15%;
+  width: 85%;
+  height: 200px;
+}
+.slide2 {
+  margin-left: 10%;
+  clear: both;
+  width: 85%;
+  height: 200px;
+}
+
+.line-graphisme-content {
+  float: left;
+  margin: 5px;
+}
+
+.line-graphisme-content img {
+max-height: 250px;
+}
+
+.line-dev-content img {
+max-height: 250px;
+margin-left: 450px;
+}
+
+.line-dev-content {
+  margin-top: 15px;
+}
+
+/*boutons*/
+.bouton {
+  margin-left: 47%;
+  padding-top: 2%;
+}
+
+.bouton-top {
+  position: fixed;
+  margin: 30px;
+  width: 100%;
+}
+
+.bouton-top img {
+  width: 2.5%;
+  height: 2.5%;
+  margin-left: 93%;
+}
+
+.photographie {
+    width: 100%;
+    height: 790px;
+    background-image: url(img/nola2.jpg);
+    background-size: cover;
+    padding-top: 20px;
+}
+.photographie h1 {
+ font-family: "AvenirNextLTPro-MediumCn.otf";
+ color:white;
+ padding: 20px;
+ padding-top: 35px;
+ margin-right: 33.33%;
+ margin-left: 33.33%;
+ margin-top: 250px;
+ font-size: 70px;
+ text-align: center;
+ border: solid 2px white;
+}
+
+.video {
+    width: 100%;
+    height: 790px;
+    background-image: url(img/graphisme.jpg);
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.video h1 {
+ font-family: "AvenirNextLTPro-MediumCn.otf";
+ color:white;
+ padding: 20px;
+ padding-top: 35px;
+ margin-right: 33.33%;
+ margin-left: 33.33%;
+ margin-top: 250px;
+ font-size: 90px;
+ text-align: center;
+ border: solid 2px white;
+}
+
+.dev {
+    width: 100%;
+    height: 790px;
+    background-image:linear-gradient(60deg, #00AFAF, #00303D);
+    /*background-image: url(img/graphisme.jpg);*/
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.dev h1 {
+ font-family: "AvenirNextLTPro-MediumCn.otf";
+ color:white;
+ padding: 20px;
+ padding-top: 35px;
+ margin-right: 33.33%;
+ margin-left: 33.33%;
+ margin-top: 250px;
+ font-size: 70px;
+ text-align: center;
+ border: solid 2px white;
+}

@@ -16,14 +16,17 @@ body {
   text-shadow: 5px 5px 5px green;
 }
 .logo {
-  margin-top: 80px;
-  margin-left: 600px;
+  margin: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container {
   margin: auto;
   height: 100%;
 }
 .textezone {
+  margin-top: -50px;
   font-family: Helvetica;
   text-align: center;
   width: 100%;
